@@ -1,0 +1,98 @@
+@import '../node_modules/purecss/build/pure.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #E8E8E8;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+td {
+  height: 2rem;
+}
+
+.layout {
+  max-width: 320px;
+}
+
+.container {
+  padding: 1em;
+}
+
+.card {
+  margin: 2rem;
+  max-width: 280px;
+  background-color: white;
+}
+
+.round {
+  border-radius: 5px;
+}
+
+.shadow {
+  box-shadow:4px 4px 8px 4px rgba(0,0,0,0.2);
+}
+
+.center {
+  text-align: center;
+  
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-grey {
+  color: #777;
+}
+
+.margin-top {
+  margin-top: 1rem;
+}
+
+.margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.list-item {
+  display: block;
+  padding: .75rem 1.25rem;
+  color: #777;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+.list-item:hover {
+  background-color: #eee;
+}
+
+.spinner {
+  animation: App-logo-spin infinite 2s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
