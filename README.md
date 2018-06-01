@@ -8,8 +8,8 @@ A little footballer catalog app.
 
 ### Prerequisites
 
-[Node.js](https://nodejs.org/en/)
-[A running backend](https://github.com/Mobenga/frontendtest-node)
+* [Node.js](https://nodejs.org/en/)
+* [A running backend](https://github.com/Mobenga/frontendtest-node)
 
 ### Install
 
